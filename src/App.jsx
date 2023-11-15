@@ -5,19 +5,21 @@ import Login from "./pages/Login";
 import ChartRoom from "./pages/ChartRoom";
 import Blog from "./pages/Blog";
 import Profile from "./pages/Profile";
+import AppLayout from "./ui/AppLayout";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route index element={<Navigate replace to={"home"} />} />
-        <Route path="home" element={<Home />} />
-        <Route path="blog" element={<Blog />} />
-        <Route path="chartroom" element={<ChartRoom />} />
-        <Route path="profile" element={<Profile />} />
+        <Route element={<AppLayout />}>
+          <Route index element={<Navigate replace to={"home"} />} />
+          <Route path="home" element={<Home />} />
+          <Route path="blog" element={<Blog />} />
+          <Route path="chartroom" element={<ChartRoom />} />
+          <Route path="profile" element={<Profile />} />
+        </Route>
         <Route path="login" element={<Login />} />
         <Route path="*" element={<PageNotFound />} />
-        <Route path="home" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
