@@ -9,7 +9,8 @@ html {
 }
 body {
   font-family: "Inter", sans-serif;
-  /* background-color: ; */
+  background-color: var(--main-Background);
+  color: var(--main-text);
 }
 :root {
   /* blues */
@@ -31,6 +32,13 @@ body {
   --Charcoal-Grey: #333;
   --Slate-Grey: #708090;
   --Silver-Grey: #c0c0c0;
+
+  /* font-size */
+  --main-heading: 2.4rem;
+  --sub-heading1: 2rem;
+  --sub-heading2: 1.6rem;
+  --paragraph: 1.6rem;
+  --small-text: 1.2rem;
 }
 
 /* 
