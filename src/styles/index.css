@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Inter", sans-serif;
+  /* background-color: ; */
+}
+:root {
+  /* blues */
+  --primary-blue: #3498db;
+  --dark-blue: #2c3e50;
+  --light-Blue: #7f8c8d;
+  --royal-Blue: #4169e1;
+  --teal-Blue: #008080;
+  --Turquoise-Blue: #40e0d0;
+  --navy-Blue: #001f3f;
+  --Sky-Blue: #87ceeb;
+
+  /* greys */
+  --main-text: #333333;
+  --main-Background: #f2f2f2;
+  --Medium-Grey: #999999;
+  --Dark-Grey: #666666;
+  --Background-Grey: #e6e6e6;
+  --Charcoal-Grey: #333;
+  --Slate-Grey: #708090;
+  --Silver-Grey: #c0c0c0;
+}
+
+/* 
+Primary Blue (#3498db):
+
+Usage: Logo, Primary Buttons, Call-to-Action Elements.
+Rationale: This color can draw attention to important elements like your logo and encourage user interaction with buttons.
+Dark Blue (#2c3e50):
+
+Usage: Header Background, Footer Background.
+Rationale: Darker shades are often suitable for background elements, providing a subtle and elegant appearance.
+Light Blue (#7f8c8d):
+
+Usage: Secondary Buttons, Borders.
+Rationale: Lighter shades can be used to differentiate secondary elements and provide a visual hierarchy.
+Royal Blue (#4169e1):
+
+Usage: Accent Elements, Highlighted Features.
+Rationale: This vibrant blue can be used to draw attention to specific features or elements on your website.
+Teal Blue (#008080):
+
+Usage: Navigation Links, Hover Effects.
+Rationale: Teal can be a good choice for links, providing a pleasant contrast and indicating interactivity.
+Turquoise Blue (#40e0d0):
+
+Usage: Highlighted Text, Info Boxes.
+Rationale: Turquoise can add a refreshing touch, making it suitable for highlighting important information.
+Navy Blue (#001f3f):
+
+Usage: Subdued Backgrounds, Darker Sections.
+Rationale: Dark navy is useful for creating contrast and can be used in sections where a more subdued background is desired.
+Sky Blue (#87ceeb):
+
+Usage: Background for Cards, Lighter Sections.
+Rationale: Lighter blues are often suitable for backgrounds, especially in areas where you want to create a sense of openness.
+Grey Tones:
+
+Text Grey (#333333):
+
+Usage: Main Text Color.
+Rationale: A dark grey is suitable for primary text content, providing good contrast for readability.
+Light Grey for Background (#f2f2f2):
+
+Usage: Body Background.
+Rationale: Light grey backgrounds create a clean and neutral canvas, enhancing readability and reducing visual strain.
+Medium Grey (#999999):
+
+Usage: Subtle Text, Dividers.
+Rationale: Medium greys can be used for less prominent text and to separate different sections of content.
+Dark Grey (#666666):
+
+Usage: Footer Text, Secondary Elements.
+Rationale: Dark grey can be used for less critical information, providing a visual hierarchy.
+Background Grey (#e6e6e6):
+
+Usage: General Background, Section Backgrounds.
+Rationale: Lighter than the body background, this grey can be used for specific sections to break up the content visually.
+Slate Grey (#708090):
+
+Usage: Borders, Accents.
+Rationale: Slate grey can be used for borders and accent details, adding a touch of sophistication.
+Charcoal Grey (#333):
+
+Usage: Text in Footer, Subtle Accents.
+Rationale: Charcoal grey can be used for less prominent text in the footer and for subtle design accents.
+Silver Grey (#c0c0c0):
+
+Usage: Background for Cards, Highlighted Sections.
+Rationale: Silver grey can be used for background elements, especially in areas where you want to draw attention.
+*/
