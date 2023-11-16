@@ -6,6 +6,7 @@ const StyledHeader = styled.header`
   padding: 2rem;
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid var(--dark-blue);
 `;
 const StyledSpan = styled.span`
   color: var(--primary-blue);

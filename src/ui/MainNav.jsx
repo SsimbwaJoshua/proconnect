@@ -16,7 +16,7 @@ const StyledNavLink = styled(NavLink)`
   &:hover,
   &:active,
   &.active {
-    color: var(--sky-blue);
+    color: var(--dark-blue);
     text-decoration: underline;
   }
 `;
