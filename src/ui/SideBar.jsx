@@ -7,18 +7,26 @@ const StyledSideBar = styled.aside`
 `;
 
 export default function SideBar() {
-  return <StyledSideBar>SideBar </StyledSideBar>;
+  return (
+    <StyledSideBar>
+      <h2>Side Menu</h2>
+      <p>Profile</p>
+      <p>search bar</p>
+      <p>recent activity</p>
+      <p> settings and theme switcher</p>
+      <p>help/support</p>
+    </StyledSideBar>
+  );
 }
 
 // Collapse/Expand:
+// Notifications:
 
 // Submenus:
 
 // User Profile:
 // A user profile section with the user's name, avatar, or profile picture. This can include options for account settings, preferences, or logging out.
 // Search Bar:
-
-// Notifications:
 
 // If the application involves notifications, a sidebar might display a section for recent notifications or alerts.
 // Dashboard Overview:
