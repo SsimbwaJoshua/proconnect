@@ -4,7 +4,7 @@ import PageNotFound from "./pages/PageNotFound";
 import Login from "./pages/Login";
 import ChartRoom from "./pages/ChartRoom";
 import Blog from "./pages/Blog";
-import Profile from "./pages/Profile";
+import ProfilePage from "./pages/ProfilePage";
 import AppLayout from "./ui/AppLayout";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
           <Route path="home" element={<Home />} />
           <Route path="blog" element={<Blog />} />
           <Route path="chartroom" element={<ChartRoom />} />
-          <Route path="profile" element={<Profile />} />
+          <Route path="profilePage" element={<ProfilePage />} />
         </Route>
         <Route path="login" element={<Login />} />
         <Route path="*" element={<PageNotFound />} />

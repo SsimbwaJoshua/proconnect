@@ -11,7 +11,7 @@ const StyledAppLayout = styled.div`
 `;
 
 const Main = styled.main`
-  background-color: red;
+  background-color: #ccc;
   padding: 3rem;
 `;
 

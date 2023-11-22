@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const StyledSideBar = styled.aside`
@@ -10,7 +11,7 @@ export default function SideBar() {
   return (
     <StyledSideBar>
       <h2>Side Menu</h2>
-      <p>Profile</p>
+      <Link to="profile">Profile</Link>
       <p>search bar</p>
       <p>recent activity</p>
       <p> settings and theme switcher</p>

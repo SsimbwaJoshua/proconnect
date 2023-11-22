@@ -41,7 +41,7 @@ export default function MainNav() {
           <StyledNavLink to="blog">Blog</StyledNavLink>
         </li>
         <li>
-          <StyledNavLink to="profile">Profile</StyledNavLink>
+          <StyledNavLink to="profilePage">Profile</StyledNavLink>
         </li>
         <li>
           <StyledNavLink to="login">Login</StyledNavLink>
